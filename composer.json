@@ -1,9 +1,14 @@
 {
-    "name": "albinapolyakina/cold-hot",
+    "name": "sifon/cold-hot",
     "require": {
         "wp-cli/php-cli-tools": "^0.11.13"
     },
     "type": "project",
+    "authors": [
+        {
+            "name": "albinapolyakina"            
+        }
+    ],
     "bin": [
         "bin/cold_hot.php"
     ],
@@ -12,5 +17,8 @@
             "src/Controller.php",
             "src/View.php"
         ]
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6"
     }
 }
