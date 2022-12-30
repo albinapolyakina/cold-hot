@@ -1,12 +1,13 @@
 {
-    "name": "sifon/cold-hot",
+    "name": "albinapolyakina/cold-hot",
     "require": {
-        "wp-cli/php-cli-tools": "^0.11.13"
+        "wp-cli/php-cli-tools": "^0.11.13",
+        "gabordemooij/redbean": "dev-master"
     },
     "type": "project",
     "authors": [
         {
-            "name": "albinapolyakina"            
+            "name": "albinapolyakina"
         }
     ],
     "bin": [
@@ -15,7 +16,8 @@
     "autoload":{
         "files":[
             "src/Controller.php",
-            "src/View.php"
+            "src/View.php",
+            "src/Model.php"
         ]
     },
     "require-dev": {
